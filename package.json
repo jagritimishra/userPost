@@ -12,7 +12,7 @@
     "@testing-library/user-event": "^12.8.3",
     "bootstrap": "^4.6.0",
     "firebase": "^8.3.2",
-    "gh-pages": "^3.1.0",
+    "gh-pages": "^3.2.0",
     "jss": "^10.6.0",
     "jss-plugin-template": "^10.6.0",
     "react": "^17.0.2",
@@ -24,7 +24,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
